@@ -1,0 +1,94 @@
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.cameraContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cameraContainer .box3d {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.cameraContainer .box3d div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.cameraContainer .box3d div input{
+  width: 33%;
+  border: 0;
+  border-radius: 8px;
+  line-height: 1.4;
+  padding: 0.125rem;
+}
+
+.fov {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.ra {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.nearFar {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.nearFar div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.nearFar div input {
+  width: 40%;
+}
+
+.projectionType {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.xyContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.xyContainer div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+}
+
+.xyContainer div div {
+  width: 40%;
+}

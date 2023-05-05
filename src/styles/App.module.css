@@ -1,0 +1,17 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  max-width: 1140px;
+  margin: 4rem auto;
+  padding-top: 1rem;
+  border: 1px solid #fff;
+}
+
+.matrix {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1.5rem;
+}
+

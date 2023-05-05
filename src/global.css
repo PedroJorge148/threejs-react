@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121214;
+  color: #c4c4cc;
+  -webkit-font-smoothing: antialiased;
+}
+
+body input {
+  width: 100%;
+  border: 0;
+  border-radius: 8px;
+  line-height: 1.4;
+  padding: 0.125rem;
+}
